@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="港企投资智能评测平台：面向内地企业的香港政策资讯、盈利与风险双模型评测、人才联动及落地方案。职业规划大赛演示原型。"
+    />
+    <meta
+      name="keywords"
+      content="香港投资,津港交流,招商引才,香港政策,企业落地,双模型评测"
+    />
+    <meta name="theme-color" content="#142d48" />
+    <meta property="og:title" content="港企投资智能评测平台" />
+    <meta
+      property="og:description"
+      content="从投资决策，到落地香港。盈利与风险同步研判，津港资源协同连接。"
+    />
+    <title>港企投资智能评测平台 · 津港协同 智见未来</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="stylesheet" href="./css/app.css" />
+    <script src="/js/theme-init.js"></script>
+    <script defer src="/vendor/echarts/echarts.min.js"></script>
+    <script type="module" src="/js/app.js"></script>
+  </head>
+  <body>
+    <div id="auth-screen" class="auth-layout">
+      <section class="auth-story">
+        <a class="brand brand-light" href="#"
+          ><span class="brand-mark">港</span
+          ><span
+            >港企投资<span class="brand-sub">HK INVEST INTELLIGENCE</span></span
+          ></a
+        >
+        <div class="auth-copy">
+          <span class="eyebrow">TIANJIN × HONG KONG</span>
+          <h1>立足津港。<br />把握下一个<br /><span>增长坐标。</span></h1>
+          <p>
+            让政策成为机遇，让数据支持决策。<br />为内地企业连接香港，走向更广阔的市场。
+          </p>
+          <div class="auth-points">
+            <span>双模型协同评测</span><span>人才与产业联动</span
+            ><span>落地全程规划</span>
+          </div>
+        </div>
+        <div class="skyline" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+          ><i></i>
+        </div>
+        <div class="auth-footer">
+          津港青年视角 · 跨境投资服务探索 <span>大赛演示原型 / DEMO</span>
+        </div>
+      </section>
+      <section class="auth-panel">
+        <button
+          class="icon-btn auth-theme"
+          data-action="theme"
+          aria-label="切换浅色或深色主题"
+        >
+          ◐
+        </button>
+        <div class="auth-card">
+          <span class="eyebrow">WELCOME TO HK INVEST</span>
+          <h2 id="auth-title">欢迎登录</h2>
+          <p class="muted" id="auth-description">开启您的香港投资决策之旅</p>
+          <div class="segmented auth-tabs" role="tablist" aria-label="账号操作">
+            <button
+              type="button"
+              role="tab"
+              aria-selected="true"
+              data-auth="login"
+              class="active"
+            >
+              登录账号</button
+            ><button
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-auth="register"
+            >
+              注册账号
+            </button>
+          </div>
+          <form id="auth-form" novalidate>
+            <label for="username">用户名</label
+            ><input
+              id="username"
+              name="username"
+              placeholder="请输入用户名"
+              autocomplete="username"
+              maxlength="32"
+              aria-describedby="username-error"
+            /><small
+              class="field-error"
+              id="username-error"
+              role="alert"
+            ></small>
+            <label for="password">密码</label
+            ><input
+              id="password"
+              type="password"
+              name="password"
+              placeholder="至少 6 位密码"
+              autocomplete="current-password"
+              maxlength="128"
+              aria-describedby="password-error"
+            /><small
+              class="field-error"
+              id="password-error"
+              role="alert"
+            ></small>
+            <div id="confirm-field" hidden>
+              <label for="confirm">确认密码</label
+              ><input
+                id="confirm"
+                type="password"
+                name="confirm"
+                placeholder="请再次输入密码"
+                autocomplete="new-password"
+                maxlength="128"
+                aria-describedby="confirm-error"
+              /><small
+                class="field-error"
+                id="confirm-error"
+                role="alert"
+              ></small>
+            </div>
+            <button
+              class="btn primary auth-submit"
+              type="submit"
+              id="auth-submit"
+            >
+              登录平台 <span>→</span>
+            </button>
+          </form>
+          <div class="prototype-note">
+            <strong>职业规划大赛 · 浏览器模拟账号</strong>
+            <p>
+              密码散列后存入本机；无真实身份验证。请勿使用常用密码或真实敏感资料。清除浏览器站点数据将丢失账号及档案。
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="application" class="app-shell" hidden>
+      <aside class="sidebar" id="sidebar">
+        <a class="brand" href="#home"
+          ><span class="brand-mark">港</span
+          ><span
+            >港企投资<span class="brand-sub">HK INVEST INTELLIGENCE</span></span
+          ></a
+        >
+        <div class="workspace-label">企业投资工作台 <span>DEMO</span></div>
+        <nav aria-label="主导航">
+          <div class="nav-caption">投资决策</div>
+          <a href="#home" data-nav="home"><span>◫</span>平台概览</a>
+          <a href="#assessment" data-nav="assessment"
+            ><span>◇</span>AI 双模型评测 <b>核心</b></a
+          >
+          <a href="#scenarios" data-nav="scenarios"
+            ><span>⌘</span>情景模拟沙盘</a
+          >
+          <a href="#projects" data-nav="projects"
+            ><span>▤</span>项目档案与预警</a
+          >
+          <div class="nav-caption">政策与资源</div>
+          <a href="#news" data-nav="news"
+            ><span>◷</span>政策资讯 <i id="news-dot" hidden></i
+          ></a>
+          <a href="#library" data-nav="library"><span>▥</span>政策文库</a>
+          <a href="#cases" data-nav="cases"><span>⇄</span>津港案例对标</a>
+          <a href="#parks" data-nav="parks"><span>▧</span>落地园区推荐</a>
+          <a href="#talent" data-nav="talent"><span>♧</span>青年人才联动</a>
+          <a href="#assistant" data-nav="assistant"
+            ><span>◌</span>政策问答助手</a
+          >
+        </nav>
+        <div class="sidebar-bottom">
+          <div class="connection-note">
+            <span class="live-dot"></span>津港协同 · 智见未来
+            <p>连接产业、资本与青年人才</p>
+          </div>
+          <a class="consult-link" href="#consultation"
+            >联系津港交流顾问 <span>↗</span></a
+          >
+        </div>
+      </aside>
+      <div class="main-shell">
+        <header class="topbar">
+          <div class="breadcrumb">
+            <button
+              class="icon-btn mobile-menu"
+              data-action="menu"
+              aria-label="展开导航"
+              aria-expanded="false"
+            >
+              ☰</button
+            ><span>工作台</span><span>/</span
+            ><strong id="page-title">平台概览</strong>
+          </div>
+          <div class="topbar-actions">
+            <span class="demo-pill">大赛原型 · 演示模式</span
+            ><button
+              class="icon-btn"
+              data-action="theme"
+              aria-label="切换浅色或深色主题"
+            >
+              ◐</button
+            ><button
+              class="icon-btn notification-button"
+              data-action="alerts"
+              aria-label="查看政策提醒"
+            >
+              ♧<i id="alert-count" hidden></i>
+            </button>
+            <div class="user-menu">
+              <span class="avatar" id="user-avatar">企</span
+              ><span id="user-name"></span
+              ><button class="text-btn" data-action="logout">退出</button>
+            </div>
+          </div>
+        </header>
+        <main id="content" tabindex="-1"></main>
+        <footer class="site-footer">
+          <span>© 2026 港企投资智能评测平台 · 津港交流大赛原型</span
+          ><a href="#disclaimer">模型口径与免责声明 ↗</a>
+        </footer>
+      </div>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+    <dialog id="news-dialog">
+      <div class="dialog-heading">
+        <span class="badge">官方资讯更新</span
+        ><button
+          class="icon-btn"
+          data-action="close-news"
+          aria-label="关闭提醒"
+        >
+          ×
+        </button>
+      </div>
+      <h2>有新政策／官方资讯发布</h2>
+      <p id="news-dialog-text"></p>
+      <div class="notice warning">
+        资讯仅供阅览，不代表本地模型已更新。政策影响必须人工核验后手动修改配置。
+      </div>
+      <div class="button-row">
+        <button class="btn primary" data-action="read-news">
+          查看官方资讯 →</button
+        ><button class="btn" data-action="close-news">稍后查看</button>
+      </div>
+    </dialog>
+    <dialog id="report-dialog" class="report-dialog">
+      <div class="dialog-heading">
+        <strong>报告在线预览</strong
+        ><button
+          class="icon-btn"
+          data-action="close-report"
+          aria-label="关闭报告预览"
+        >
+          ×
+        </button>
+      </div>
+      <iframe
+        id="report-frame"
+        title="企业赴港投资智能评测报告预览"
+        sandbox="allow-popups allow-popups-to-escape-sandbox"
+      ></iframe>
+    </dialog>
+  </body>
+</html>
