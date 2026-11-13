@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cyberport",
+    "name": "香港数码港",
+    "area": "港岛 · 薄扶林",
+    "officeAnnualHkd": 180000,
+    "density": 72,
+    "industries": ["technology", "finance", "trade"],
+    "url": "https://www.cyberport.hk/",
+    "description": "数字科技与创业生态；租金、产业适配分及密度均为项目演示假设，不代表园区报价、实际入驻密度或保证获接纳。"
+  },
+  {
+    "id": "sciencepark",
+    "name": "香港科学园",
+    "area": "新界 · 白石角",
+    "officeAnnualHkd": 240000,
+    "density": 65,
+    "industries": ["technology", "manufacturing", "biotech"],
+    "url": "https://www.hkstp.org/",
+    "description": "研发、先进制造和生命健康生态；入驻需独立申请，费用及密度均为演示参数。"
+  },
+  {
+    "id": "tko",
+    "name": "将军澳创新园",
+    "area": "新界 · 将军澳",
+    "officeAnnualHkd": 300000,
+    "density": 42,
+    "industries": ["manufacturing", "biotech"],
+    "url": "https://www.hkstp.org/",
+    "description": "新型工业化发展方向；场地、工艺和项目资格逐案核验，模型费用及密度为演示参数。"
+  },
+  {
+    "id": "central",
+    "name": "中环商务区（非补贴园区）",
+    "area": "港岛 · 中环",
+    "officeAnnualHkd": 420000,
+    "density": 85,
+    "industries": ["finance", "professional", "trade"],
+    "url": "https://www.investhk.gov.hk/",
+    "description": "商业办公区域，用于商务选址对照；无默认园区补贴，费用及密度为演示参数。"
+  }
+]

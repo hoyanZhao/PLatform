@@ -1,0 +1,41 @@
+[
+  {
+    "id": "demo-tj-tech",
+    "name": "津创数科（模拟企业）",
+    "origin": "天津",
+    "industry": "technology",
+    "investmentCny": 5000000,
+    "revenueCny": 12000000,
+    "subsidyCny": 300000,
+    "paybackMonths": 30,
+    "risks": ["未预留香港人工成本", "误将资助上限作为已获批收入"],
+    "lesson": "先验证客户订单与资金来源，再按研发里程碑申请资助。",
+    "simulated": true
+  },
+  {
+    "id": "demo-hebei-manufacturing",
+    "name": "冀港智造（模拟企业）",
+    "origin": "河北",
+    "industry": "manufacturing",
+    "investmentCny": 12000000,
+    "revenueCny": 28000000,
+    "subsidyCny": null,
+    "paybackMonths": 42,
+    "risks": ["实验场地用途核验滞后", "设备进出口安排不完整"],
+    "lesson": "在签署场地租约前核验工艺、消防、环保与货品管制要求。",
+    "simulated": true
+  },
+  {
+    "id": "demo-tj-trade",
+    "name": "津海商务（模拟企业）",
+    "origin": "天津",
+    "industry": "trade",
+    "investmentCny": 3000000,
+    "revenueCny": 18000000,
+    "subsidyCny": null,
+    "paybackMonths": 26,
+    "risks": ["目标市场合规成本低估", "回款与库存周期错配"],
+    "lesson": "用小批量订单验证渠道，准备客户尽调和回款缓冲。",
+    "simulated": true
+  }
+]

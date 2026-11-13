@@ -1,0 +1,28 @@
+[
+  {
+    "id": "gov-rss",
+    "name": "香港政府新闻公报 RSS",
+    "type": "rss",
+    "url": "https://www.info.gov.hk/gia/rss/general_en.xml",
+    "enabled": true,
+    "note": "官方 RSS，开发时已核验可读取；按招商、财税、人才、园区等关键词筛选。"
+  },
+  {
+    "id": "investhk",
+    "name": "香港投资推广署",
+    "type": "html",
+    "url": "https://www.investhk.gov.hk/en/news/",
+    "enabled": true,
+    "pathPrefix": "/en/news/",
+    "note": "未确认有效 RSS，使用每日一次轻量列表页请求；不抓取文章正文。"
+  },
+  {
+    "id": "gov-news",
+    "name": "香港政府新闻网 · 财经",
+    "type": "html",
+    "url": "https://www.news.gov.hk/chi/categories/finance/index.html",
+    "enabled": true,
+    "pathPrefix": "/chi/categories/finance/",
+    "note": "仅解析公开列表中的文章元信息，不访问文章正文。"
+  }
+]

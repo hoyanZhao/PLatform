@@ -1,0 +1,110 @@
+[
+  {
+    "id": "profits",
+    "title": "香港利得税与两级制",
+    "category": "财税",
+    "summary": "公司标准税率 16.5%；符合资格时首 200 万港币应评税利润按 8.25%，其余按 16.5%。离岸利润和其他豁免须独立核验，模型不自动认定免税。",
+    "url": "https://www.ird.gov.hk/eng/tax/bus_pft.htm",
+    "publisher": "香港税务局",
+    "publishedAt": null,
+    "checkedAt": "2026-11-12",
+    "industries": ["all"],
+    "keywords": ["税", "利得", "免税", "两级", "tax"]
+  },
+  {
+    "id": "companies",
+    "title": "公司注册、周年申报与持续责任",
+    "category": "公司法",
+    "summary": "公司注册与商业登记并不替代牌照审批；周年申报、商业登记续期、审计和报税应分别安排，实际期限按公司及主管机关通知核验。",
+    "url": "https://www.cr.gov.hk/en/companies_ordinance/index.htm",
+    "publisher": "香港公司注册处",
+    "publishedAt": null,
+    "checkedAt": null,
+    "industries": ["all"],
+    "keywords": ["注册", "公司", "年审", "周年", "审计"]
+  },
+  {
+    "id": "capital",
+    "title": "跨境资金与境外投资办事指引",
+    "category": "跨境资金",
+    "summary": "内地境外投资备案、外汇登记与资金用途需按项目性质向相关主管部门及经办银行核验；香港开户涉及客户尽职审查与资金来源证明。",
+    "url": "https://www.safe.gov.cn/",
+    "publisher": "国家外汇管理局",
+    "publishedAt": null,
+    "checkedAt": null,
+    "industries": ["all"],
+    "keywords": ["跨境", "资金", "外汇", "备案", "开户"]
+  },
+  {
+    "id": "ess",
+    "title": "企业支援计划 ESS",
+    "category": "科创补贴",
+    "summary": "支持企业内部研发，等额配对资助，每个获批项目最高 1000 万港币；须香港注册、有效商业登记及满足组织身份等条件，由主管部门评审。",
+    "url": "https://www.itf.gov.hk/en/funding-programmes/supporting-research/ess/index.html",
+    "publisher": "香港创新科技署",
+    "publishedAt": null,
+    "checkedAt": "2026-11-12",
+    "industries": ["technology", "manufacturing", "finance", "biotech"],
+    "keywords": ["资助", "补贴", "研发", "科创", "ess"]
+  },
+  {
+    "id": "rth",
+    "title": "研究人才库 RTH",
+    "category": "人才津贴",
+    "summary": "研发人才聘用支持须按所属资助类别、企业资格、研究岗位与学历条件核验。平台不据企业投资额推定可申领金额。",
+    "url": "https://www.itf.gov.hk/en/funding-programmes/nurturing-talent/research-talent-hub/index.html",
+    "publisher": "香港创新科技署",
+    "publishedAt": null,
+    "checkedAt": "2026-11-12",
+    "industries": ["technology", "manufacturing", "finance", "biotech"],
+    "keywords": ["人才", "津贴", "研究", "rth", "用工"]
+  },
+  {
+    "id": "ttps",
+    "title": "高端人才通行证计划",
+    "category": "引才",
+    "summary": "个人资格计划，涉及前一年收入、合资格大学学士学位、工作经验或毕业年限等类别条件；并非公司投资即可申领的补贴。",
+    "url": "https://www.immd.gov.hk/eng/services/visas/TTPS.html",
+    "publisher": "香港入境事务处",
+    "publishedAt": null,
+    "checkedAt": "2026-11-12",
+    "industries": ["all"],
+    "keywords": ["高才", "高端", "签证", "ttps"]
+  },
+  {
+    "id": "qmas",
+    "title": "优秀人才入境计划",
+    "category": "引才",
+    "summary": "按入境处当前个人资格与评核机制办理；本平台没有申请人的学历、语言、工作经验等资料，只提供前置自查清单。",
+    "url": "https://www.immd.gov.hk/eng/services/visas/quality_migrant_admission_scheme.html",
+    "publisher": "香港入境事务处",
+    "publishedAt": null,
+    "checkedAt": "2026-11-12",
+    "industries": ["all"],
+    "keywords": ["优才", "优秀", "签证", "qmas"]
+  },
+  {
+    "id": "techtas",
+    "title": "科技人才入境计划",
+    "category": "引才",
+    "summary": "适用于符合计划要求的科技研发企业与人才，企业配额、研发职责及个人资格须逐项按官网确认；不自动认定可用。",
+    "url": "https://www.itc.gov.hk/en/fund_app/techtas/index.html",
+    "publisher": "香港创新科技署",
+    "publishedAt": null,
+    "checkedAt": "2026-11-12",
+    "industries": ["technology", "manufacturing", "finance", "biotech"],
+    "keywords": ["科技人才", "techtas", "配额"]
+  },
+  {
+    "id": "parks",
+    "title": "香港园区与投资推广官方入口",
+    "category": "招商园区",
+    "summary": "园区入驻、孵化计划和场地支持需分别申请。平台提供园区适配演示，不承诺租金、补贴或录取结果。",
+    "url": "https://www.investhk.gov.hk/en/",
+    "publisher": "香港投资推广署",
+    "publishedAt": null,
+    "checkedAt": "2026-11-12",
+    "industries": ["all"],
+    "keywords": ["园区", "招商", "入驻", "投资"]
+  }
+]

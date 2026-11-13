@@ -1,0 +1,26 @@
+[
+  {
+    "id": "demo-tech",
+    "name": "津港青年 · 技术标签组",
+    "role": "technical",
+    "tags": ["软件研发", "英文技术文档", "津港学习交流"],
+    "description": "模拟能力标签组合，无真实人员、简历或联系方式。",
+    "simulated": true
+  },
+  {
+    "id": "demo-business",
+    "name": "津港青年 · 跨境商务标签组",
+    "role": "business",
+    "tags": ["普通话 / 英语", "渠道拓展", "跨境项目协作"],
+    "description": "模拟资源展示，不代表已授权或可供招聘的人才。",
+    "simulated": true
+  },
+  {
+    "id": "demo-compliance",
+    "name": "津港青年 · 合规研究标签组",
+    "role": "compliance",
+    "tags": ["政策研究", "公司治理", "双语资料整理"],
+    "description": "模拟能力标签，不具备法律服务承诺，不替代持牌专业人士。",
+    "simulated": true
+  }
+]

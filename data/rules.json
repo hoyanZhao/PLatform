@@ -1,0 +1,88 @@
+{
+  "version": "DEMO-HK-2026.11-v1",
+  "sourceCheckedAt": "2026-11-12",
+  "lastHumanVerifiedAt": null,
+  "reviewNote": "公开官方网页已作开发资料核对；尚未由税务、法律或签证专业人员人工核验。",
+  "disclaimer": "【项目演示假设数值，不代表真实市场结果，实际经营请另行专业测算】输入字段有限，仅作为前期参考，落地前务必对接官方复核资质。本平台不提供投资、税务、法律或移民意见，不保证盈利、获批、签证或资助。",
+  "newsDisclaimer": "资讯仅供阅览，外网资讯绝不自动改写评测规则；税制、补贴和风险权重必须由人工核验后手动更新本地快照。商业决策务必查阅香港官方原文。",
+  "assumptions": {
+    "fxHkdPerCny": 1.08,
+    "fxNote": "固定演示汇率：1 人民币 = 1.08 港币，不是实时汇率",
+    "revenueBasis": "年营收为不含增值税收入；三年均视为完整经营年度",
+    "hkCostInflation": 0.03,
+    "delayAnnualCostInflation": 0.03,
+    "registrationHkd": 10000,
+    "annualComplianceHkd": 18000,
+    "fitoutFraction": 0.04,
+    "payrollPerEmployeeHkd": 180000,
+    "mainlandPayrollFactor": 0.5,
+    "mainlandOfficeFactor": 0.55,
+    "mainlandAnnualComplianceCny": 10000,
+    "mainlandSetupCny": 8000,
+    "mainlandFitoutFraction": 0.025,
+    "mainlandCit": 0.25,
+    "surchargeOnVat": 0.12,
+    "scale": {
+      "small": { "label": "小型", "range": "1–20 人", "employees": 8 },
+      "medium": { "label": "中型", "range": "21–100 人", "employees": 25 },
+      "large": { "label": "大型", "range": "101–500 人", "employees": 80 }
+    },
+    "riskWeights": {
+      "compliance": 0.3,
+      "access": 0.25,
+      "market": 0.25,
+      "policy": 0.2
+    },
+    "riskLevels": { "high": 65, "medium": 35 },
+    "profitLevels": {
+      "highRoi": 0.5,
+      "steadyRoi": 0.05,
+      "maximumHighRisk": 65
+    },
+    "potentialRdBudgetFraction": 0.12,
+    "potentialTalentBudgetPerTechHkd": 60000,
+    "potentialTalentBudgetCapHkd": 180000,
+    "overseas": {
+      "asean": {
+        "label": "东盟",
+        "growth": 0.12,
+        "costRatio": 0.08,
+        "suitability": ["trade", "manufacturing", "technology"]
+      },
+      "middleeast": {
+        "label": "中东",
+        "growth": 0.1,
+        "costRatio": 0.09,
+        "suitability": ["manufacturing", "trade"]
+      },
+      "europe": {
+        "label": "欧洲",
+        "growth": 0.08,
+        "costRatio": 0.11,
+        "suitability": ["professional", "technology"]
+      },
+      "northamerica": {
+        "label": "北美",
+        "growth": 0.09,
+        "costRatio": 0.12,
+        "suitability": ["technology", "biotech"]
+      }
+    }
+  },
+  "official": {
+    "hkProfitsTax": {
+      "standardRate": 0.165,
+      "firstTierRate": 0.0825,
+      "thresholdHkd": 2000000,
+      "eligibleConfirmed": false,
+      "source": "https://www.ird.gov.hk/eng/tax/bus_pft.htm",
+      "condition": "公司两级制：首 200 万港币应评税利润 8.25%，其余 16.5%；关联实体等资格限制须核验。基础模型资格未确认时按标准 16.5%，两级制仅列备选。"
+    },
+    "ess": {
+      "capHkd": 10000000,
+      "matchingRate": 0.5,
+      "source": "https://www.itf.gov.hk/en/funding-programmes/supporting-research/ess/index.html",
+      "condition": "企业支援计划：香港注册且持有效商业登记的非政府资助公司及非其附属公司；研发项目逐案审批，等额配对，单项目资助最高 1000 万港币；不保证获批。"
+    }
+  }
+}
